@@ -3,9 +3,9 @@ body {
     margin : auto;
     font-size: 12px;
     font-family: "Open Sans";
-    background: -webkit-linear-gradient(90deg, rgb(54, 65, 74), rgb(156, 179, 202));
-    background: linear-gradient(90deg, rgb(54, 65, 74), rgb(156, 179, 202));
-    background:url(https://fotomelia.com/wp-content/uploads/edd/2015/09/fotomelia-site-de-photos-et-images-gratuites-libres-de-droits22-1560x1040.jpg) no-repeat bottom right ;
+    /*background: -webkit-linear-gradient(90deg, rgb(54, 65, 74), rgb(156, 179, 202));*/
+    /*background: linear-gradient(90deg, rgb(54, 65, 74), rgb(156, 179, 202));*/
+    background:url(/images/free-stock-photos.webp) no-repeat bottom right, -moz-linear-gradient(90deg, rgb(70, 175, 175) 100%, rgba(253,187,45,1) 100%) ;
     background-size: cover;
 }
 
@@ -161,9 +161,15 @@ footer{
     margin: 20px;
 }
 
-a:hover{
-    color:blue;
-    font-weight: bold;
 
-    
+a:hover{
+    color: rgb(13, 71, 85);
+    text-decoration:none;
+    font-weight:bold;
+}
+
+a:visited{
+    color: rgb(215, 111, 236);
+    text-decoration:none;
+    font-weight:bold;
 }
