@@ -1,3 +1,169 @@
+body {
+    max-width: 90%;
+    margin : auto;
+    font-size: 12px;
+    font-family: "Open Sans";
+    background: -webkit-linear-gradient(90deg, rgb(54, 65, 74), rgb(156, 179, 202));
+    background: linear-gradient(90deg, rgb(54, 65, 74), rgb(156, 179, 202));
+    background:url(https://fotomelia.com/wp-content/uploads/edd/2015/09/fotomelia-site-de-photos-et-images-gratuites-libres-de-droits22-1560x1040.jpg) no-repeat bottom right ;
+    background-size: cover;
+}
+
+blockquote{
+    max-width: 50%;
+    margin: auto;
+    font-size: 1.6rem;
+    background-color: rgb(219, 205, 195);
+    border-left: 3px solid firebrick;
+    margin-left: 30px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    border-radius: 10px;
+    padding: 30px 20px 30px 20px;
+}
+
+figcaption{
+    display: block;
+    position:absolute;
+    margin-left: 7%;
+    font-style: italic;
+}
+
+
+
+.good, .bad{
+    text-transform:capitalize;
+}
+
+.good{
+    color: red;
+}
+
+.bad{
+    color: green;
+}
+
+header h1{
+    background-color: yellow;
+    font-size: xx-large;
+    font-weight: 800;
+}
+
+q{
+    padding: 0 0;
+    font-style: italic;
+}
+
+    q.villagers{
+        border-left: rgb(62, 101, 139) 3px solid;
+    }
+
+    q.farmer{
+        border-left: rgb(160, 29, 29) 3px solid;
+    }
+
+
+img{
+    width:50%;
+    margin: 40px;
+    float: right;
+}
+
+
+
 h1 {
     font-size: 30px;
+}
+
+table{
+    table-layout: fixed;
+    width: 60%;
+    border:2px solid black;
+    border-collapse:collapse;
+    box-shadow: 3px 3px rgb(65, 63, 63);
+    margin: 40px;
+    margin-bottom: 10px;
+    
+
+}
+
+table th{
+    background-color: white;
+}
+
+thead:nth-child(1){
+    width:30%;
+}
+
+thead:nth-child(2){
+    width:30%;
+}
+
+table tr:nth-child(odd){
+    background-color: white;
+    
+}
+
+table tr:nth-child(even){
+    background-color: grey;
+}
+
+th, td{
+    padding: 10px;
+}
+
+ul.typesofpeople{
+    list-style-type: none;
+    width: 370px;
+}
+
+
+ul li:nth-child(1){
+    background-image:url(images/bien.png);
+    background-position:right;
+    background-repeat: no-repeat;
+    padding-right:100px;
+    background-size:15px;
+}       
+
+ul li:nth-child(2){
+    background-image:url(images/mal.png);
+    background-position:right;
+    background-repeat: no-repeat;
+    padding-right:100px;
+    background-size:15px;
+}       
+
+ul li:nth-child(3){
+    background-image:url(images/chat.png);
+    background-position:right;
+    background-repeat: no-repeat;
+    padding-right:100px;
+    background-size:15px;
+}       
+
+
+
+p{
+    letter-spacing: 0.8px;
+}
+
+.first{
+    font-weight: bold;
+}
+h2{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+    margin-top: 40px;
+}
+
+footer{
+    margin: 20px;
+}
+
+a:hover{
+    color:blue;
+    font-weight: bold;
+
+    
 }
